@@ -18,24 +18,20 @@ public class NewUser1 {
 		Matcher email_matcher = email_pattern.matcher(email);
 		Matcher pass_matcher = pass_pattern.matcher(pass);
 		
-		if (pass.length()>=9  && pass.equals(confirmPass))
+		if (pass.length()>=9 && pass.equals(confirmPass))
 		{
 
 		
-		  if(email_matcher.matches() ==true && pass_matcher.matches())
+		  if(email_matcher.matches()  && pass_matcher.matches())
 			  return ("Registarrion done");
 		  else
 			  System.out.println(email +" : "+ email_matcher.matches());
-		  System.out.println(pass +" : "+ pass_matcher.matches());
+		      System.out.println(pass +" : "+ pass_matcher.matches());
 
 			  
 			  return ("Registarrion fail");
 		}
 		return ("Registarrion fail");
-			  
-		
-		
-		
 	
 
 }

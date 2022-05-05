@@ -48,6 +48,10 @@ class NewUserTest1 {
 	void test7(){
 		assertEquals("Registarrion done",this.obj1.Register("SALMA@gmail.com", "12345678@9", "12345678@9"));
 	}
+	@Test
+	void test8(){
+		assertEquals("Registarrion fail",this.obj1.Register("SALM A@gmail.com", "12345678@9", "12345678@9"));
+	}
 	
 
 	

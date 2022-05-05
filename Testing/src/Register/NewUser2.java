@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class NewUser2 {
 	
 	public String Register(String email,String pass,String confirmPass) {
-		String regex = "^[^ ]+@([^ ]+)$";
+		String regex = "[^ ]+@([^ ]+)";
 		String regex2 = "[^a-zA-Z0-9 ]";
 			
 		 
@@ -19,11 +19,11 @@ public class NewUser2 {
 		Matcher pass_matcher = pass_pattern.matcher(pass);
 		
 	
-		if (pass.length()>=9 && confirmPass.length()>=9 && pass.equals(confirmPass))
+		if (pass.length()>=9  && pass.equals(confirmPass))
 		{
 
 		
-		  if(email_matcher.matches() ==true && pass_matcher.find())
+		  if(email_matcher.matches() && pass_matcher.find())
 			  return ("Registarrion done");
 		  else
 			  System.out.println(email +" : "+ email_matcher.matches());

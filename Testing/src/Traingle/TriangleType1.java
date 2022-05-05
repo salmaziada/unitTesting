@@ -1,9 +1,8 @@
 package Traingle;
 
-public class TriangleType2 {
+public class TriangleType1 {
 	
 	public  String Type(double a,double b, double c) {
-
 
 
 
@@ -16,7 +15,7 @@ public class TriangleType2 {
 
 		  return ("Triangle is Equilateral Triangle.");
 
-		else if(a==b || b==c || c==a)
+		else if(a==b || b==c )
 
 			return("Triangle is Isosceles Triangle.");
 
@@ -30,7 +29,7 @@ public class TriangleType2 {
 
 		else
 
-		 return ("Not Triangle.");
+		 return null;
 
 
 	}

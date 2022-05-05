@@ -8,8 +8,7 @@ public class NewUser2 {
 	
 	public String Register(String email,String pass,String confirmPass) {
 		String regex = "[^ ]+@([^ ]+)";
-		String regex2 = "[^a-zA-Z0-9 ]";
-			
+		String regex2 = "[^a-zA-Z0-9 ]";	
 		 
 		Pattern email_pattern = Pattern.compile(regex);
 		

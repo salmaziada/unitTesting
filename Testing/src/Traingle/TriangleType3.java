@@ -1,8 +1,9 @@
 package Traingle;
 
-public class TriangleType {
+public class TriangleType3 {
 	
 	public  String Type(double a,double b, double c) {
+
 
 
 
@@ -29,7 +30,7 @@ public class TriangleType {
 
 		else
 
-		 return null;
+		 return ("Not Triangle.");
 
 
 	}

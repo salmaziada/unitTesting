@@ -7,7 +7,7 @@ import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import Traingle.TriangleType;
+import Traingle.TriangleType1;
 
 class NewUserTest2 {
 	
@@ -50,9 +50,15 @@ class NewUserTest2 {
 		assertEquals("Registarrion done",this.obj1.Register("SALMA@gmail.com", "a12345678@9", "a12345678@9"));
 	}
 	@Test
+	void test9(){
+		assertEquals("Registarrion done",this.obj1.Register("SALMA@gmail.com", "a12345678@9", "a12345678@9"));
+	}
+	@Ignore
 	void test8(){
 		assertEquals("Registarrion fail",this.obj1.Register("SALM A@gmail.com", "12345678@9", "12345678@9"));
 	}
+	
+	
 	
 	
 

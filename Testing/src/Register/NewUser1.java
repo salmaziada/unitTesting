@@ -22,7 +22,7 @@ public class NewUser1 {
 		{
 
 		
-		  if(email_matcher.matches()  && pass_matcher.matches())
+		  if(email_matcher.matches()&& pass_matcher.matches())
 			  return ("Registarrion done");
 		  else
 			  System.out.println(email +" : "+ email_matcher.matches());

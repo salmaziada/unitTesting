@@ -29,7 +29,7 @@ public class TriangleType1 {
 
 		else
 
-		 return null;
+		 return ("Not Triangle.");
 
 
 	}

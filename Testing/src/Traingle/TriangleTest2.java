@@ -17,20 +17,20 @@ public class TriangleTest2 {
 		}
 	
 
-	@Test
+	@Ignore
 public	void test1() {
 		
 		assertEquals("Not Triangle.",this.obj1.Type(0, 0, 0));
 		
 	}
 	
-	@Test
+	@Ignore
 public	void test2() {
 		assertEquals("Not Triangle.",this.obj1.Type(-1, -1,-1));
 		
 	}
 	
-	@Test
+	@Ignore
 public	void test3() {
 		assertEquals("Not Triangle.",this.obj1.Type(3, 2,5));
 		
@@ -55,7 +55,7 @@ public	void test5() {
 		assertEquals("Triangle is Isosceles Triangle.",this.obj1.Type(50, 50,10));
 		
 	}
-@Test
+  @Test
 	
 	public	void test7() {
 		assertEquals("Triangle is Isosceles Triangle.",this.obj1.Type(10, 50,50));
